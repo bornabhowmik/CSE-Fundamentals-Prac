@@ -1,15 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int n=16;
+    int n;
     scanf("%d",&n);
-    if(n/3)
+    
+    if(n%3==0)
     {
-        printf("Yes");
+        printf("YES\n");
     }
     else
     {
-        printf("No");
+        printf("NO\n");
     }
+    
     return 0;
 }
