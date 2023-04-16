@@ -3,7 +3,7 @@
 int main()
 {
     int tk;
-    scanf("%d",tk);
+    scanf("%d",&tk);
 
     if(tk>1000)
     {
