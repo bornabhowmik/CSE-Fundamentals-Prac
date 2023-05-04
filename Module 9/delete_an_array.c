@@ -10,7 +10,7 @@ int main()
     {
         scanf("%d",&ar[i]);
     }
-    
+
     int pos;
     scanf("%d",&pos);
     
