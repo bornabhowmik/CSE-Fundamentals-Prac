@@ -3,20 +3,21 @@ int main()
 {
    int n;
    scanf("%d",&n);
-   {
-   if(n==positive value) 
-   {
-    printf("%d",positive);
-   }
-   else
+
+   if(n>0) 
     {
-        printf("%d",negative);
-    }
-    if(n==0)
-    {
-        printf("%d",zero);
+        printf("positive");
     }
 
-   }
+    else if (n<0)
+    {
+        printf("negative");
+    }
+
+    else
+    {
+        printf("zero");
+    }
+
    return 0;
 }
